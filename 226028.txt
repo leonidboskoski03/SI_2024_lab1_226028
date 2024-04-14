@@ -1,5 +1,5 @@
 $git init - se inicijalizira papka
-$git remote add origin https://ghp_Z3rWG*********@github.com/leonidboskoski03/SI_2024_lab1_226028 - go povrzuvam lokalnoto repo so oddalecenoto repo preku kluc
+$git remote add origin https://ghp_Z3rWG********@github.com/leonidboskoski03/SI_2024_lab1_226028 - go povrzuvam lokalnoto repo so oddalecenoto repo preku kluc
 $nano README.md - go kreiram README.md 
 $git add . ги - gi dodavam site elementi
 $git commit -m "Initial commit" - pravam komit na fajlovite
