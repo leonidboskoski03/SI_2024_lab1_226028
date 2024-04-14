@@ -1,0 +1,97 @@
+-----bug2-----
+commit 8a287c3defc5e6d0b16c47ae934c5357b44c6455
+Author: Leonid <leuvce@gmail.com>
+Date:   Sun Apr 14 21:35:42 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 9438131c54a65176fdc95e1acbcdc4ccb9ad74f5
+Author: Leonid <leuvce@gmail.com>
+Date:   Sun Apr 14 21:39:00 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 0bc50c2fc5a41af58641dcc89fd2eec6e278292f
+Author: Leonid <leuvce@gmail.com>
+Date:   Sun Apr 14 21:34:36 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 6b060592176fb3a7ac39791edefee6273c87afe0
+Author: Leonid <leuvce@gmail.com>
+Date:   Sun Apr 14 21:31:06 2024 +0200
+
+    Add starter code
+
+commit c8200bf662055c9261b93415f0d96a24c49395a4
+Author: Leonid <leuvce@gmail.com>
+Date:   Sun Apr 14 21:28:56 2024 +0200
+
+    Initial commit
+
+
+----bug1------
+
+commit 32114ff2b3c4b01a16c6f44158b366e09730d765 (HEAD -> bug1, origin/bug1)
+Author: Leonid <leuvce@gmail.com>
+Date:   Sun Apr 14 22:26:44 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 0bc50c2fc5a41af58641dcc89fd2eec6e278292f
+Author: Leonid <leuvce@gmail.com>
+Date:   Sun Apr 14 21:34:36 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 6b060592176fb3a7ac39791edefee6273c87afe0
+Author: Leonid <leuvce@gmail.com>
+Date:   Sun Apr 14 21:31:06 2024 +0200
+
+    Add starter code
+
+commit c8200bf662055c9261b93415f0d96a24c49395a4
+Author: Leonid <leuvce@gmail.com>
+Date:   Sun Apr 14 21:28:56 2024 +0200
+
+    Initial commit
+
+
+----master----
+
+commit 1ef27b4330a36671971301f8cfa1589ac7afc983 (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: Leonid <leuvce@gmail.com>
+Date:   Sun Apr 14 21:40:04 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit 8a287c3defc5e6d0b16c47ae934c5357b44c6455
+Author: Leonid <leuvce@gmail.com>
+Date:   Sun Apr 14 21:35:42 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 9438131c54a65176fdc95e1acbcdc4ccb9ad74f5
+Author: Leonid <leuvce@gmail.com>
+Date:   Sun Apr 14 21:39:00 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 0bc50c2fc5a41af58641dcc89fd2eec6e278292f
+Author: Leonid <leuvce@gmail.com>
+Date:   Sun Apr 14 21:34:36 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 6b060592176fb3a7ac39791edefee6273c87afe0
+Author: Leonid <leuvce@gmail.com>
+Date:   Sun Apr 14 21:31:06 2024 +0200
+
+    Add starter code
+
+commit c8200bf662055c9261b93415f0d96a24c49395a4
+Author: Leonid <leuvce@gmail.com>
+Date:   Sun Apr 14 21:28:56 2024 +0200
+
+    Initial commit
+-

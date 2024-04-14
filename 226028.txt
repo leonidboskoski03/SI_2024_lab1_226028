@@ -1,0 +1,49 @@
+$git init - se inicijalizira papka
+$git remote add origin https://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@github.com/leonidboskoski03/SI_2024_lab1_226028 - go povrzuvam lokalnoto repo so oddalecenoto repo
+$nano README.md - go kreiram README.md 
+$git add . ги - gi dodavam site elementi
+$git commit -m "Initial commit" - pravam komit na fajlovite
+$git add . - gi dodavam .java fajlovite
+$git commit -m "Add starter code" - pravam komit na fajlovite
+$git push -u origin master - se pravi sinhronizacija so master
+$git checkout -b bug1 - sozdavam branch i se prefrlam na nego
+$nano SILab1_1.java - se poprava gresniot kod
+$git commit -a -m "Fix wrong condition in filterOddLengthStrings" - prvo go dodavam smenetiot .java pa potoa go komitnuvam
+$git checkout master - se prefrlam na grankata master
+$git checkout -b bug2 - se sozdava nov branch i se prefrlam na nego
+$nano SILab1_2.java ја поправам грешката - se poprava gresniot kod 
+$git commit -a -m "Fix wrong condition in makeBigStringFrom" - prvo go dodavam smenetiot .java pa potoa go komitnuvam
+$git checkout bug1 - se prefrlam na bug1
+$nano SILab1Main.java - go dodavam povikot do metodot
+$git commit -a -m "Call method filterOddLengthStrings in main class" - prvo go dodavam smenetiot .java pa potoa go komitnuvam
+$git checkout bug2 - se prefrlam na bug2
+$nano SIlab1Main.java - go dodavam povikot do metodot
+$git commit -a -m "Call method makeBigStringFrom in main class" - prvo go dodavam smenetiot .java pa potoa go komitnuvam
+$git push -u origin bug2 - se pravi sinhronizacija na bug2
+$git push -u origin bug1 - se pravi sinrhonizacija na bug1
+$git push -u origin master - se pravi sinhronizacija na master
+$git checkout master - se prefrlam na master
+$git merge bug1 - se spojuva bug1 so master i spojuvanjeto se izvrsuva so Fast-Forward
+$git push -u origin bug2 - se sinhronizira bug2
+$git push -u origin bug1 - se sinhronizira bug1
+$git push -u origin master -  se sinhronizira master
+$git checkout bug2 - se prefrlam na bug2
+$git rebase master - pravam rebase na master no se javi konflikt  
+$nano SILab1Main.java - se resava konfliktuto racno
+$git add SILab1Main.java - go dodavam popraveniot kod
+$git rebase --continue - se dovrsuva rebase i se otvara editor koj sto bara poraka za noviot za noviot komit ja ostaviv taa sto bese i noviot rebase e uspesen
+$git checkout master - se prefrlam na master
+$git merge bug2 - go dodavam bug2 na master so Fast-Forward
+$git push -u origin bug2 - ja sinhroniziram bug2 nasilno,(git push  origin bug2 --force)
+$git push -u origin bug1 - ja sinhroniziram bug1
+$git push -u origin master - ja sinhroniziram master
+
+gi dodavam fajlovite vo datotekata 226028.txt i logs.txt
+$git add . - gi dodavam na staging area fajlovite
+$git commit -m "Final commit" - pravam commit na fajlovite
+
+$git push -u origin bug2 - se pravi sinhronizacija na bug2
+$git push -u origin bug1 - se pravi sinrhonizacija na bug1
+$git push -u origin master - se pravi sinhronizacija na master
+
+  
